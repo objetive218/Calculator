@@ -23,22 +23,41 @@
     background-color: lightskyblue;
     padding: 20px;
 }
-#main #table h3 {
-    width: 240px;
+#main #table #disp{
+    width: 265px;
     display: flex;
     justify-content: flex-end;
+    flex-direction: column;
     padding-right: 10px;
     border: solid lightseagreen 3px;
     border-radius: 10px;
 }
+#main #table h3 {
+    display: flex;
+    justify-content: flex-end;
+}
+#main #table #result{
+    font-size: 28px;
+}
+#main #table #result1{
+    font-size: 18px;
+}
 #main #table #container{
     display: inline-flex;
+    justify-content: center;
     flex-wrap: wrap;
-    width: 240px;
+    width: 300px;
+    gap: 10px;
 }
 button{
     width: 60px;
     height: 60px;
+    
     background-color: lightblue;
     border-radius: 10px;
+}
+#main #table #container #clear, #delete{
+    width: 129px;
+    height: 60px;
+    
 }
